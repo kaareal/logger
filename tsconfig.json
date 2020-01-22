@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "lib": ["es2017"],
+    "sourceMap": false,
+    "declaration": true,
+    "declarationDir": "types",
+    "outDir": "lib",
+    "allowSyntheticDefaultImports": true,
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin",
+        "alwaysShowRuleFailuresAsWarnings": false
+      }
+    ]
+  },
+  "include": ["./src"]
+}
